@@ -1,0 +1,28 @@
+body {
+    font-family: system-ui, sans-serif;
+    margin: 20px;
+}
+
+details {
+    padding: 18px;
+    border-radius: 10px;
+    background-color:rgb(228, 228, 228);
+    cursor: pointer;
+}
+
+p{
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    animation: test 1s ease-in-out;
+}
+
+@keyframes test {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
